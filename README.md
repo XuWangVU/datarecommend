@@ -9,7 +9,7 @@
 - Benchmark Corpus (Gold Standard for evaluation): [download link](https://zenodo.org/record/6386897)
 
 ### Needed Data List
-
+All the following files are from this github or the links above. And make sure uncompress all the download compressed file (.tar or .tar.bz2). Also, make sure put all files together in one folder (--data Path_to_folder, default is the folder of [python file](./Recommendation.py) )
 - seeds.txt
 - cands.txt
 - StandardSchLink.hdt
