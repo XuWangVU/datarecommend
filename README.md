@@ -36,7 +36,8 @@ All the following files are from this github or the links above. And make sure u
 - [SentenceTransformers](https://www.sbert.net/)
 
 ## Usage
-'''
+
+```
 usage: Recommendation.py [-h] [-th THRESHOLD] [-bm25t BM25_THRESHOLD] [-hop HOP] -data DATA [-out OUT] [-random RANDOM] [-all ALL] [-top TOP]
 optional arguments:
   -h, --help            show this help message and exit
@@ -52,4 +53,4 @@ optional arguments:
                         Random select seeds from seed file. Recommended argument for large-scale seed file                        
   -all ALL, --all ALL   Run with all hops and thresholds for author embedding similarity  
   -top TOP, --top TOP   Threshold for Bert and citation embedding similarity approaches
-'''
+```
