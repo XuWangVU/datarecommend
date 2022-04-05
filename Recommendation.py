@@ -482,9 +482,9 @@ if __name__ == '__main__':
     out_dir = os.path.abspath(args['out'])
     seed_path = data_dir + "/seeds.txt"
     cand_path = data_dir + "/cands.txt"
-    standard_path = data_dir + "StandardSchLink.hdt"
+    standard_path = data_dir + "/StandardSchLink.hdt"
     vec_path = data_dir + "/mag_authors_2020_ComplEx_entity.npy"
-    vec_dict_path = data_dir + "/author_entities.txt"
+    vec_dict_path = data_dir + "/authors_entities.dict"
     citation_vec_path = data_dir + "/Citation_vectors.txt"
     title_path = data_dir + "/Paper.hdt"
     des_path = data_dir + "/PaperAbs.hdt"
