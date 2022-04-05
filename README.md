@@ -24,3 +24,14 @@
 - PaperAuthorAffiliations.hdt
 - PaperAuthorAffiliations.hdt.index.v1-1
 
+### Python Library
+
+- [pybind11](https://pybind11.readthedocs.io/en/stable/index.html#)
+- [pyHDT](https://callidon.github.io/pyHDT/)
+- [numpy](https://numpy.org/)
+- [gensim](https://radimrehurek.com/gensim/)
+- [tqdm](https://tqdm.github.io/)
+- [rank_bm25](https://github.com/dorianbrown/rank_bm25)
+- [networkx](https://networkx.org/)
+- [SentenceTransformers](https://www.sbert.net/)
+
