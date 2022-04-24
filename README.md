@@ -10,18 +10,18 @@
 
 ### Needed Data List
 All the following files are from this github or the links above. And make sure uncompress all the download compressed file (.tar or .tar.bz2). Also, make sure put all files together in one folder (--data Path_to_folder, default is the folder of [python file](./Recommendation.py) )
-- seeds.txt
-- cands.txt
-- StandardSchLink.hdt
-- StandardSchLink.hdt.index.v1-1
-- mag_authors_2020_ComplEx_entity.npy
-- authors_entities.dict
-- Citation_vectors.txt
-- Paper.hdt
+- seeds.txt (List of seeds, one seed per line)
+- cands.txt (List of candidates, one candidate per line)
+- StandardSchLink.hdt (Standard links for evaluation, stored as RDF/HDT format)
+- StandardSchLink.hdt.index.v1-1 (index file for standard links)
+- mag_authors_2020_ComplEx_entity.npy (numpy file for pretrained MAKG author entity embeddings)
+- authors_entities.dict (index file for pretrained MAKG author engtity embeddings)
+- Citation_vectors.txt (pretrained dataset/paper entity embeddings on MAKG citation network)
+- Paper.hdt (triples of papers' titles)
 - Paper.hdt.index.v1-1
-- PaperAbs.hdt
+- PaperAbs.hdt (triples of papers' abstracts)
 - PaperAbs.hdt.index.v1-1
-- PaperAuthorAffiliations.hdt
+- PaperAuthorAffiliations.hdt (triples of MAKG paper-author or dataset-author authorships)
 - PaperAuthorAffiliations.hdt.index.v1-1
 
 ### Python Library
