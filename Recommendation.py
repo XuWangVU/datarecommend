@@ -43,6 +43,15 @@ if int(args['hop']) < 0 or int(args['hop']) > 3:
 if int(args['bm25_threshold']) < 0:
     raise ValueError("Please input threshold (int) for BM25 ranking >0")
 
+check_list = ["seeds.txt","cands.txt","StandardSchLink.hdt","StandardSchLink.hdt.index.v1-1","mag_authors_2020_ComplEx_entity.npy","authors_entities.dict","Citation_vectors.txt","Paper.hdt","Paper.hdt.index.v1-1","PaperAbs.hdt","PaperAbs.hdt.index.v1-1","PaperAuthorAffiliations.hdt","PaperAuthorAffiliations.hdt.index.v1-1"]
+dir_list = os.listdir(args['data'])
+non_exist_files = []
+for check in tqdm(check_list,desc="Checking data files in data path"):
+    if check not in dir_list:
+        non_exist_files.append(check)
+if len(non_exist_files)!=0:
+    raise Exception("Data files "+str(non_exist_files)+" is missing. Please recheck README.")
+
 # optimize_sparql()
 model = SentenceTransformer('all-mpnet-base-v2')
 
