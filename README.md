@@ -37,6 +37,17 @@ All the following files are from this github or the links above. And make sure u
 
 ## Usage
 
+There are several parameters:
+
+- `-th, --threshold` Threshold for similarity between author embeddings based on pretrained MAKG author entity embedding. 
+- `-bm25t, --bm25_threshold` Threshold for dataset ranking method based on BM25 (Best Match 25).
+- `-hop, --hop` Hop number for graph walk on MAKG co-author network.
+- `-data, --data` Path to directory contains all the needed data files in [Needed Data List][### Needed Data List]
+- `-out, --out` Path to store all the result output files.
+- `-random, --random` \[Optional\] Only suggest when running with big `seeds.txt` file. Randomly select `RANDOM` percent of seeds.
+- `-all, --all` Run all suggested hops (1-3) and thresholds of author embedding (0.3-0.7).
+- `-top, --top` \[Optional\] Threshold for Bert and citation embedding similarity. `TOP` is the top percent of results to be kept for Bert and citation embedding similarity.
+
 ```
 usage: Recommendation.py [-h] [-th THRESHOLD] [-bm25t BM25_THRESHOLD] [-hop HOP] -data DATA [-out OUT] [-random RANDOM] [-all ALL] [-top TOP]
 optional arguments:
