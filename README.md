@@ -14,8 +14,8 @@ All the following files are from this github or the links above. And make sure u
 - cands.txt (List of candidates, one candidate per line)
 - StandardSchLink.hdt (Standard links for evaluation, stored as RDF/HDT format)
 - StandardSchLink.hdt.index.v1-1 (index file for standard links)
-- mag_authors_2020_ComplEx_entity.npy (numpy file for pretrained MAKG author entity embeddings)
-- authors_entities.dict (index file for pretrained MAKG author engtity embeddings)
+- mag_authors_2020_ComplEx_entity.npy (numpy file for pretrained MAKG author entity embeddings, included in [MAKG pretrained entity embedding](https://makg.org/dumps/2020-06-19/makg-embeddings-2020-06-19.tar.bz2))
+- authors_entities.dict (index file for pretrained MAKG author engtity embeddings, included in [MAKG pretrained entity embedding](https://makg.org/dumps/2020-06-19/makg-embeddings-2020-06-19.tar.bz2))
 - Citation_vectors.txt (pretrained dataset/paper entity embeddings on MAKG citation network)
 - Paper.hdt (triples of papers' titles)
 - Paper.hdt.index.v1-1
